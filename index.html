@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pokemoncolors.css">
+    <title>PokedeX</title>
+</head>
+<body onload="init()">
+
+
+
+<div class="container-input">    
+    
+ <input type="text" id="searchInput" placeholder="Search Pokemon or Type..." onkeyup="searchPokemons()">
+ </div>
+
+<div id="pokemon-list"></div>
+
+<div class="container-button">
+    
+ <button class="loadmore" onclick="loadMorePokemons()"><img src="img/arrow-down.png"></button>
+
+</div>
+    <div id="myDIV" class="hidden" onclick="stopPropagation(event)">
+
+      <div id="popup-content"> 
+ 
+        <span style="font-size: 24px; color: lightgray; margin-right: 8px; margin-top: 8px;" id="close-popup" onclick="closePopup()">X</span>
+        <p id="popup-name"></p>
+        <h3 id="popup-type"></h3>
+        <img id="popup-image" src="" alt="Pokemon image">
+        <div>
+            <canvas id="myChart"></canvas>
+            
+       <div class="container-next">
+        <div id="buttonnext" class="nextbutton" onclick="showNextPokemon()">></div>
+
+       </div>
+     </div>
+ 
+      </div>
+    </div>
+</div>
+  
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+<script src="chart.js"></script>
+</body>
+</html>

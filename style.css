@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(35, 31, 36);
+}
+#pokemon-list{
+    margin: 40px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.img{
+    width: 220px;    
+}  
+.types{
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 12px;
+}
+.container-characters {
+    width: 300px;
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Weiche Animation bei Hover */
+
+}
+
+.container-characters:hover {
+    transform: translateY(-10px); /* Bewegt den Container 10px nach oben */
+    box-shadow: 0 0 15px 0.2px rgb(255, 255, 255); /* Goldener Schatten um den Container */
+
+    cursor: pointer;
+}
+.container-name{
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.loadmore{
+    justify-content: center;
+    z-index: 999;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 16px;
+    
+}
+.container-button{
+    display: flex;
+    justify-content: center;
+position: fixed;
+bottom: 0;
+left: 50%;
+
+}
+.container-input{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+#searchInput{
+    width: 50%;
+    padding: 5px 0; /* Reduziert den vertikalen Abstand */
+    border: none; /* Entfernt die Rahmen */
+    border-bottom: 1px solid rgb(100, 100, 100); /* Fügt einen unterstrichenen Rahmen hinzu */
+    background: none; /* Entfernt den Hintergrund */
+    font-size: 16px;
+    outline: none; /* Entfernt den Fokusrahmen beim Klicken */
+    color: white;
+}
+.search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease; /* Übergangseffekt für den Schatten */
+
+}
+
+/* Stil, der aktiviert wird, wenn die Suchleiste fokussiert ist (angeklickt) */
+.search-input:focus {
+    outline: none; /* Entfernt den Standard-Fokusrahmen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Animierter Schatten */
+}
+
+/* CSS-Code für das Pop-up-Fenster */
+#myDIV{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none; /* Versteckt das Pop-up-Fenster */
+}
+
+#popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  height: 500px;
+  background: linear-gradient(to top, #000000, #2e2604); 
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+ 
+}
+
+#close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#popup-image {
+  width: 200px;
+  height: 200px;
+}
+
+
+#popup.show {
+  display: block;
+}
+#myChart {
+   margin-bottom: 124px;
+}
+#popup-name {
+    background: linear-gradient(to top, #e2e2e2, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+#popup-type{
+    background: linear-gradient(to top, #ffb413, #ffdf75);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+}
+
+
+.nextbutton{
+    color: white;
+    font-size: 16px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+.container-next{
+   display: flex;
+   justify-content: flex-end; 
+}
+button.loadmore{
+    background-color: transparent;
+}

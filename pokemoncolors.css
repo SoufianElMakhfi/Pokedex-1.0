@@ -1,0 +1,156 @@
+
+/* Pokemon backgorund colors */
+.bg-normal {
+    background: linear-gradient(to bottom, #726745, #A8A77A); 
+}
+
+.bg-fire {
+    background: linear-gradient(to bottom, #B22D00, #EE8130); 
+    
+}
+
+.bg-water {
+    background: linear-gradient(to bottom, #3C6FC8, #6390F0); 
+    
+}
+
+.bg-electric {
+    background: linear-gradient(to bottom, #ffe95c, #ffcc00); 
+}
+
+.bg-grass {
+    background: linear-gradient(to bottom, #567D46, #7AC74C); 
+}
+
+.bg-ice {
+    background: linear-gradient(to bottom, #678C8A, #96D9D6); 
+}
+
+.bg-fighting {
+    background: linear-gradient(to bottom, #821D15, #C22E28); 
+}
+
+.bg-poison {
+    background: linear-gradient(to bottom, #73297A, #A33EA1); 
+}
+
+.bg-ground {
+    background: linear-gradient(to bottom, #8b7645, #d8c28a); 
+}
+
+.bg-flying {
+    background: linear-gradient(to bottom, #7768C5, #A98FF3); 
+}
+
+.bg-psychic {
+    background: linear-gradient(to bottom, #B03060, #F95587); 
+}
+
+.bg-bug {
+    background: linear-gradient(to bottom, #787A23, #A6B91A); 
+}
+
+.bg-rock {
+    background: linear-gradient(to bottom, #7F6C1C, #B6A136); 
+}
+
+.bg-ghost {
+    background: linear-gradient(to bottom, #4D396B, #735797); 
+}
+
+.bg-dragon {
+    background: linear-gradient(to bottom, #4C00B8, #6F35FC); 
+}
+
+.bg-dark {
+    background: linear-gradient(to bottom, #4B392A, #705746); 
+}
+
+.bg-steel {
+    background: linear-gradient(to bottom, #84848C, #B7B7CE); 
+}
+
+.bg-fairy {
+    background: linear-gradient(to bottom, #A35485, #D685AD); 
+}
+.types {
+    padding: 2px 5px;
+    color: white;
+    border-radius: 5px;
+    margin: 2px;
+    font-weight: bold;
+}
+.type-normal {
+    background-color: rgb(146, 146, 146); 
+}
+
+.type-fire {
+    background-color: #a70000;
+}
+
+.type-water {
+    background-color: #0050fd;
+}
+
+.type-electric {
+    background-color: #ebc700; 
+}
+
+.type-grass {
+    background-color: #489600;
+}
+
+.type-ice {
+    background-color: #86d2f5; 
+}
+
+.type-fighting {
+    background-color: #994025;
+}
+
+.type-poison {
+    background-color: purple;
+}
+
+.type-ground {
+    background-color: #2c221d;
+}
+
+.type-flying {
+    background-color: #535353;
+}
+
+.type-psychic {
+    background-color: #ff69af;
+}
+
+.type-bug {
+    background-color: #9cb820;
+}
+
+.type-rock {
+    background-color: #8B8F8A; 
+}
+
+.type-ghost {
+    background-color: #705898;
+}
+
+.type-dragon {
+    background-color: #7038f8;
+}
+
+.type-dark {
+    background-color: #705848; 
+}
+
+.type-steel {
+    background-color: #979797;
+}
+
+.type-fairy {
+    background-color: #ee99ac;}
+h3{
+    color: white;
+    /*text-shadow: 0 0 10px #030303, 0 0 20px #a8a8a8, 0 0 30px #363636; /* Leuchteffekt */
+}
